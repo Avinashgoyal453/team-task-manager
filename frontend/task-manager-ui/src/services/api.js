@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5164/api"
+  baseURL: "https://team-task-manager-production-5e17.up.railway.app/api"
 });
 
 // attach token automatically
