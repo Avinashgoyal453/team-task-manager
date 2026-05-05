@@ -41,11 +41,9 @@ var app = builder.Build();
 // Middleware
 app.UseCors("AllowAll");
 
-if (app.Environment.IsDevelopment())
-{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 app.UseAuthentication();
 app.UseAuthorization();
